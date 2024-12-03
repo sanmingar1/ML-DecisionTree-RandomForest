@@ -346,9 +346,9 @@ def CONSTRUYE_ARBOL(X,y,min_ejemplos_nodo_interior,max_prof,prop_umbral,prof=0):
     # 2. EN OTRO CASO:
     #encontrar el MEJOR atributo A y el mejor umbral u para ese atributo
     #y particionar en dos tanto X como y:
-    else:
-        for atributo in X:
-            print(atributo)
+    # else:
+    #     for atributo in X:
+    #         # print(atributo)
     
     return None
 
